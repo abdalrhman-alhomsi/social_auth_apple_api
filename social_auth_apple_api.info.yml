@@ -1,0 +1,10 @@
+name: Social auth apple api
+type: module
+description: 'Social auth apple api for decoupled system.'
+package: 'Social'
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - social_auth_decoupled:social_auth_decoupled
+  - social_auth_apple:social_auth_apple
+  - drupal:system (>=8.7.0)

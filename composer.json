@@ -1,0 +1,14 @@
+{
+    "name": "drupal/social_auth_apple_api",
+    "type": "drupal-module",
+    "description": "Social auth apple api.",
+    "homepage": "https://www.drupal.org/project/social_auth_apple_api",
+    "license": "GPL-2.0+",
+    "require": {
+        "php": ">=7.0.8",
+        "drupal/core": "^8.7 || ^9",
+        "drupal/social_auth_decoupled": "^3.0",
+        "drupal/social_auth_apple": "^1.0"
+    },
+    "minimum-stability": "dev"
+}

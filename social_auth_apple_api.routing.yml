@@ -1,0 +1,8 @@
+social_auth_apple_api.login.http:
+  path: '/user/login/apple'
+  defaults:
+    _controller: \Drupal\social_auth_apple_api\Controller\AppleAuthHttpController::login
+  methods: [POST]
+  requirements:
+    _user_is_logged_in: 'FALSE'
+    _format: 'json'
