@@ -1,6 +1,6 @@
-# Social auth apple api
+# Social Auth Apple API
 
-This module provide a endpoint to login to drupal by apple's access_token
+This Drupal module provide a endpoint to login to drupal by apple's access_token
 
 ### Endpoint
 #### Url:
